@@ -2,7 +2,7 @@ import json
 from os import system
 
 # Usando raw string para la ruta del archivo
-ruta_archivo = r"C:\Users\USUARIO\Desktop\TRABAJOS_GuerreroMiguel\Python\DIA 11\large-file.json"
+ruta_archivo = r"large-file.json"
 
 try:
     with open(ruta_archivo, encoding="utf-8") as file:
